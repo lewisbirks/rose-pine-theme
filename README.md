@@ -9,7 +9,7 @@
 
 Inspired by the serene and elegant aesthetics of the [Rose Pine theme](https://rosepinetheme.com/), this plugin brings a touch of tranquility to your Jenkins interface.
 
-This plugin provides the RosePine theme for Jenkins.
+This plugin provides the Rose Pine theme for Jenkins.
 
 
 After installing this plugin, go to _Manage Jenkins » Appearance » Themes_ and select the _RosePine_ theme.
