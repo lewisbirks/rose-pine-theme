@@ -1,12 +1,27 @@
+/* rose pine dawn theme */
 [data-theme=rose-pine], .app-theme-picker__picker[data-theme=rose-pine] {
-: Change these colors to match your theme */
---background: #faf4ed;
-  --accent-color: #d7827e;
+  --rp-base: hsl(32deg, 57%, 95%);
+  --rp-surface: hsl(35deg, 100%, 98%);
+  --rp-overlay: hsl(33deg, 43%, 91%);
+  --rp-muted: hsl(257deg, 9%, 61%);
+  --rp-subtle: hsl(248deg, 12%, 52%);
+  --rp-text: hsl(248deg, 19%, 40%);
+  --rp-love: hsl(343deg, 35%, 55%);
+  --rp-gold: hsl(35deg, 81%, 56%);
+  --rp-rose: hsl(3deg, 53%, 67%);
+  --rp-pine: hsl(197deg, 53%, 34%);
+  --rp-foam: hsl(189deg, 30%, 48%);
+  --rp-iris: hsl(268deg, 21%, 57%);
+  --rp-highlight-low: hsl(25deg, 35%, 93%);
+  --rp-highlight-med: hsl(10deg, 9%, 86%);
+  --rp-highlight-high: hsl(315deg, 4%, 80%);
+
+  --background: var(--rp-base);
+  --accent-color: var(--rp-rose);
 
   /* Text */
-  /* TODO: Change this color to match your theme */
-  --text-color: #575279;
-  --text-color-secondary: #9893a5;
+  --text-color: var(--rp-text);
+  --text-color-secondary: var(--rp-muted);
 
   /* Breadcrumbs - Deprecated */
   --breadcrumbs-bar-background: var(--background);
@@ -73,17 +88,17 @@
 
   /* Colors */
   /* Base palette to match background and accent-color theme */
-  /* TODO: Change these colors to match your theme */
-  --blue:  #286983;          /* Pine from Dawn */
-  --brown: #A52A2A;          /* Standard “brown” ≈ web brown  :contentReference[oaicite:1]{index=1} */
-  --cyan:  #56949f;          /* Foam from Dawn */
-  --green: #01796F;          /* Pine green (Web) :contentReference[oaicite:2]{index=2} */
-  --indigo: #907aa9;         /* Iris from Dawn */
-  --orange: #ea9d34;         /* Gold from Dawn */
-  --pink: #d7827e;           /* Rose from Dawn */
-  --purple: #800080;         /* Standard “purple” (HTML) :contentReference[oaicite:3]{index=3} */
-  --red: #b4637a;            /* Love from Dawn */
-  --yellow: #f6c177;         /* Gold from Dawn (used for yellow) */
+  --red: var(--rp-love);
+  --orange: var(--rp-gold);
+  --yellow: hsl(40deg, 70%, 65%);    /* Soft, muted yellow */
+  --green: hsl(160deg, 25%, 45%);    /* Desaturated sage green */
+  --blue: var(--rp-pine);
+  --cyan: var(--rp-foam);
+  --teal: hsl(175deg, 35%, 40%);     /* Muted teal */
+  --indigo: var(--rp-iris);
+  --purple: hsl(280deg, 25%, 55%);   /* Soft purple */
+  --pink: var(--rp-rose);
+  --brown: hsl(20deg, 35%, 45%);     /* Warm, muted brown */
 
   /* Derived variants (light/dark) */
   --light-blue: oklch(from var(--blue) calc(l + 0.2) c h);
