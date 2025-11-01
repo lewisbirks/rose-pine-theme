@@ -54,7 +54,7 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>theme-manager</artifactId>
-      <version>310.v234c7de84f9c</version>
+      <version>327.v780d7096ec29</version>
     </dependency>
   </dependencies>
 
